@@ -1,0 +1,77 @@
+.card-torchic {
+    background-color: rgba(250, 195, 29, 0.683);
+    max-width: 320px;
+    margin: auto;
+    border: 0.5rem solid  rgb(255, 195, 31);
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+
+.card-torchic:hover {
+    border-color: rgb(255, 117, 37);
+    transition: 0.5s;
+}
+
+.card-torchic__header {
+    background-color: rgba(236, 191, 56, 0.642);
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-torchic__img {
+    display: inline-block;
+    object-fit: cover;
+    width: min(1005, 256px);
+}
+
+
+.card-torchic__body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(215, 218, 26, 0.537);
+    padding: 1rem;
+}
+
+.card-torchic__title {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-torchic__tipo {
+    text-align: center;
+}
+
+.card-torchic__subtitle {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.card-torchic__text {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.card-torchic__footer {
+    background-color: rgba(255, 230, 41, 0.61);
+    text-align: center;
+    padding: 1rem;
+}
+
+.menu-torchic {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.menu-torchic__link {
+    text-decoration: none;
+    color: black;
+}

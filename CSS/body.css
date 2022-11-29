@@ -1,0 +1,16 @@
+.body {
+    background-color: var(--color-fondo);
+    font-family: var(--font-family);
+    color: var(--text-color-2);
+    margin: 0;
+    
+}
+
+
+.hero {
+    display: flex;
+    background-image: url('https://pm1.narvii.com/6159/ce9eeb5b1114993b7f9676a11d7d8d4e72e4ea9c_hq.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
